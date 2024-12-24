@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 now = datetime.datetime.now()
 
-GOOGLE_API_KEY ='AIzaSyBogQtrVL5P6qBu2NGZYD13QusSV7ERNvo'
+GOOGLE_API_KEY ='GOOGLE_API_KEY입력'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 his = []
